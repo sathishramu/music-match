@@ -1,0 +1,87 @@
+img{
+height: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    width: 80%;
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;  
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+nav li:hover{
+    color:blue;
+    text-decoration: underline;
+}
+button{
+    height: 40px;
+    width:70px;
+    background-color: blue;
+    border-radius:20px ;
+    margin: 10px;
+    border: 0px;
+    list-style-type: none;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+.pro{
+    width: 30px;
+    height: 25px;
+    border-radius:5px ;
+    font-size: 15px;
+}
+nav img{
+    height:60px;
+}
+h1{
+    font-size: 60px;
+    font-family: Gordita,sans-serif;
+    height: 90%;
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 70px;
+    padding-left: 80PX;
+}
+*
+{
+    margin:0%;
+    padding:0;
+}
+.firstimg{
+    height: 30px;
+}
+.flixbox{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    cursor: pointer;
+    padding: 6px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+div h2{
+    height: 90%;
+    width: 0;
+    
+}
+div p{
+    width: 140%;
+}
+div img{
+    height: 70px;
+}
